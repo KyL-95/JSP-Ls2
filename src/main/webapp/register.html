@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Đăng ký</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1>ĐĂNG KÝ THÀNH VIÊN</h1>
+	<form id="form-1">
+
+		<table border="1">
+			<tbody>
+				<tr>
+					<td colspan="2"><b>THÔNG TIN ĐĂNG NHẬP</b></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><label for="email"></label> <input id="email" type="email" />
+					</td>
+				</tr>
+				<tr>
+					<td>Mật khẩu</td>
+					<td><label for="password"></label> <input id="password"
+						type="password" required="required" /></td>
+				</tr>
+				<tr>
+					<td>Nhập lại mật khẩu</td>
+					<td><label for="password2"></label> <input id="password2"
+						type="password" /></td>
+				</tr>
+				<tr>
+					<td colspan="2"><b>THÔNG TIN CÁ NHÂN</b></td>
+				</tr>
+				<tr>
+					<td>*Họ và tên</td>
+					<td><label for="hoTen"></label> <input id="hoTen" type="text" />
+					</td>
+				</tr>
+				<tr>
+					<td>Giới tính</td>
+					<td><input id="nam" type="radio" name="gioiTinh" value="FM" />
+						<label for="nam">Nam</label> <input id="nữ" type="radio"
+						name="gioiTinh" value="M" /> <label for="nữ">Nữ</label></td>
+				</tr>
+				<tr>
+					<td>Ngày sinh</td>
+					<td><label for="ngaySinh"></label> <input id="ngaySinh"
+						type="date" /></td>
+				</tr>
+				<tr>
+					<td>Số điện thoại</td>
+					<td><label for="phone"></label> <input id="phone" type="tel" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><b>ĐỊA CHỈ</b></td>
+				</tr>
+
+				<tr>
+					<td>Quốc gia</td>
+					<td><select name="quocGia" id="quocGia">
+							<option value="VN">Viet Nam</option>
+							<option value="JP">Japan</option>
+							<option value="US">America</option>
+							<option value="SP">Spain</option>
+							<option value="FR">France</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td>Địa chỉ nhà</td>
+					<td><textarea rows="5" cols="" name="diaChi" id="diaChi"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><b>BỔ SUNG</b></td>
+				</tr>
+				<tr>
+					<td>Sở thích</td>
+					<td><input id="docSach" type="checkbox" /> <label
+						for="docSach">Đọc sách</label> <input id="xemPhim" type="checkbox" />
+						<label for="xemPhim">Xem phim</label></td>
+				</tr>
+				<tr>
+					<td>Hình ảnh</td>
+					<td><input type="file" id="hinhAnh" /></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="submit" value="Đăng ký" /> <input
+						type="reset" value="Xóa form" /></td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
